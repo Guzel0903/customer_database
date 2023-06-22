@@ -1,0 +1,117 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px; /* Adjust the margin-top to create space between header and table */
+  display: flex;
+  justify-content: flex-start; /* Align the container content to the left */
+}
+.search-container {
+	margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+table {
+	margin-left: 20px !important;
+    border-collapse: collapse;
+    width: 50%;
+    table-layout: fixed;
+    margin-top: 20px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align the content within the container to the left */
+  margin-left: 20px; /* Adjust the margin-left to create space between the left edge and content */
+}
+
+
+h1 {
+  font-size: 32px; /* Increase the font size of the heading */
+  text-align: left; /* Center align the heading */
+}
+
+
+th {
+  background-color: #4f71be;
+  color: #ffffff;
+  padding: 10px;
+  border-bottom: 2px solid #ffffff;
+}
+
+th:not(:first-child) {
+  border-left: 1px solid #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #d0d5e7;
+}
+
+tr:nth-child(odd) {
+  background-color: #eaebf4;
+}
+
+td {
+  border: 1px solid #ffffff !important;
+  padding: 5px;
+  text-align: center;
+}
+
+td:first-child {
+    width: 10%;
+    text-align: center;
+}
+
+td:last-child {
+    text-align: center;
+}
+.add-customer-button {
+    background-color: #4f70be;
+    color: #ffffff;
+    border: 2px solid #1b2b4e;
+    border-radius: 10px;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.add-customer-button:hover {
+    background-color: #3f60ae;
+}
+
+.search-button {
+    background-color: #4f70be;
+    color: #ffffff;
+    border: 2px solid #1b2b4e;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    background-color: #3f60ae;
+}
+.icon {
+    width: 16px;
+    height: 16px;
+}
+a {
+    text-decoration: none;
+}
